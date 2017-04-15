@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <title></title>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link href="style.css" rel="stylesheet">
+  <script src="gl.js"></script>
+  <script>
+    var gl;
+    window.addEventListener("load", function() {
+      gl = GLInstance("glcanvas").fSetSize(500, 500).fClear();
+    });
+  </script>
+</head>
+
+<body>
+  <div>
+    <canvas id="glcanvas"></canvas>
+  </div>
+</body>
+
+</html>
